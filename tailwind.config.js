@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "mainFont":"Orbitron"
+      },
+      backgroundImage:{
+        "heroPattern":"url('public/hero-background.jpeg')"
+      }
+    },
   },
   plugins: [],
 }
