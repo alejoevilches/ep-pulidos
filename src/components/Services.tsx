@@ -11,17 +11,17 @@ interface Card{
 //Variable que aloja todas las cards
 const cards:Card[]=[
   {
-    img:"public/opticas-card.jpeg",
+    img:"/opticas-card.jpeg",
     title:"Ópticas",
     description:"Pulido solo de ópticas"
   },
   {
-    img:"public/acrilico-card.jpeg",
+    img:"/acrilico-card.jpeg",
     title:"Tratamiento acrílico",
     description:"Incluye pulido de ópticas y carroceria con tratamiento acrílico"
   },
   {
-    img:"public/ceramico-card.jpeg",
+    img:"/ceramico-card.jpeg",
     title:"Tratamiento cerámico",
     description:"Incluye pulido de ópticas y carroceria con tratamiento cerámico"
   }
