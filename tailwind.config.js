@@ -14,7 +14,7 @@ export default {
         "mainFont":"Orbitron"
       },
       backgroundImage:{
-        "heroPattern":"url('public/hero-background.jpeg')"
+        "heroPattern":"url('/hero-background.jpeg')"
       }
     },
   },
