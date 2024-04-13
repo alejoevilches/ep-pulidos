@@ -2,7 +2,7 @@ import { Carousel } from "flowbite-react";
 
 export function Gallery(){
   return(
-    <section className="w-screen h-max bg-zinc-800 flex flex-col">
+    <section className="w-screen h-max bg-zinc-500 flex flex-col">
       <p className="mx-auto pt-4 text-white text-xl">Mirá nuestro trabajo</p>
       <Carousel indicators={false} className="h-80 px-8 py-5 object-contain">
         <img src="c1.jpeg" alt="Foto de un auto luego del tratamiento ceramico" />
