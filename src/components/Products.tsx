@@ -1,4 +1,4 @@
-export function Cubreautos(){
+export function Products(){
   return(
     <section className="bg-red-950 text-white flex flex-col items-center">
       <h4 className="text-2xl text-center px-3 py-5">Mantené tu tratamiento por mas tiempo con nuestros cubreautos</h4>

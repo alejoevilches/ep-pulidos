@@ -1,7 +1,8 @@
 import { Navbar } from "./components/Navbar"
 import { Hero } from "./components/Hero"
 import { Services } from "./components/Services"
-import { Cubreautos } from "./components/Cubreautos"
+import { Products } from "./components/Products"
+import { Gallery } from "./components/Gallery"
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Cubreautos />
+      <Products />
+      <Gallery />
     </main>
   )
 }
