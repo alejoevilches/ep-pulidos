@@ -15,6 +15,9 @@ export default {
       },
       backgroundImage:{
         "heroPattern":"url('/hero-background.jpeg')"
+      },
+      screens:{
+        "md2":"996px"
       }
     },
   },
