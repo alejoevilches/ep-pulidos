@@ -1,7 +1,7 @@
 import { Carousel } from "flowbite-react";
 import { useResponsive } from "../hooks/useResponsive";
 import { useState } from "react";
-import { IconChevronLeft, IconChevronRight, IconDiabolo } from "@tabler/icons-react";
+import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 
 const images=[
   "c1.jpeg",
