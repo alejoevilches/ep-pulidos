@@ -59,7 +59,7 @@ function ScreenGallery() {
 export function Gallery(){
   const {isMobile}=useResponsive();
   return(
-    <section className="w-screen h-max bg-zinc-500 flex flex-col">
+    <section id="gallery" className="w-screen h-max bg-zinc-500 flex flex-col">
       <p className="mx-auto pt-4 text-white text-xl">Mirá nuestro trabajo</p>
       {isMobile ? <MobileGallery /> : <ScreenGallery/>}
     </section>

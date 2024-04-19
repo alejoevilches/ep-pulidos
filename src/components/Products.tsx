@@ -1,6 +1,6 @@
 export function Products(){
   return(
-    <section className="bg-red-950 text-white flex flex-col items-center">
+    <section id="products" className="bg-red-950 text-white flex flex-col items-center">
       <h4 className="text-2xl text-center px-3 py-5">Mantené tu tratamiento por mas tiempo con nuestros cubreautos</h4>
       <div className="flex flex-col w-screen sm:flex-row">
         <img className="sm:w-1/2" src="/cubreautos-banner.jpeg" alt="Informacion sobre cubreautos" />

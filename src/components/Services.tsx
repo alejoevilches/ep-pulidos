@@ -82,7 +82,7 @@ function ScreenServices(){
 export function Services(){
   const {isMobile}=useResponsive();
   return(
-    <section className="bg-zinc-800 text-white flex flex-col items-center py-5">
+    <section id="services" className="bg-zinc-800 text-white flex flex-col items-center py-5">
       <h2 className="text-3xl pb-6">Nuestros servicios</h2>
       {isMobile ? <MobileServices /> : <ScreenServices />}
     </section>
