@@ -6,7 +6,8 @@ import { useResponsive } from "../hooks/useResponsive";
 interface Card{
   img:string,
   title:string,
-  description:string
+  description:string,
+  link:string
 }
 
 //Variable que aloja todas las cards
@@ -14,17 +15,20 @@ const cards:Card[]=[
   {
     img:"/opticas-card.jpeg",
     title:"Ópticas",
-    description:"Pulido solo de ópticas"
+    description:"Pulido solo de ópticas",
+    link:"https://api.whatsapp.com/send/?phone=%2B5491132181199&text=Deseo+el+pulido+de+%C3%B3ptica&type=phone_number&app_absent=0"
   },
   {
     img:"/acrilico-card.jpeg",
     title:"Tratamiento acrílico",
-    description:"Incluye pulido de ópticas y carroceria con tratamiento acrílico"
+    description:"Incluye pulido de ópticas y carroceria con tratamiento acrílico",
+    link:"https://api.whatsapp.com/send/?phone=%2B5491132181199&text=Deseo+el%25pulido+de+carrocer%C3%ADa+con+tratamiento+acr%C3%ADlico&type=phone_number&app_absent=0"
   },
   {
     img:"/ceramico-card.jpeg",
     title:"Tratamiento cerámico",
-    description:"Incluye pulido de ópticas y carroceria con tratamiento cerámico"
+    description:"Incluye pulido de ópticas y carroceria con tratamiento cerámico",
+    link:"https://api.whatsapp.com/send/?phone=%2B5491132181199&text=Deseo+el+pulido+de+carrocer%C3%ADa+con+tratamiento+cer%C3%A1mico&type=phone_number&app_absent=0"
   }
 ]
 
@@ -48,7 +52,7 @@ function MobileServices(){
         <div className="flex flex-col items-center justify-center bg-gradient-to-r from-red-600 to-red-950 w-full min-h-60 py-5">
           <h3 className="text-2xl mb-4">{currentCard.title}</h3>
           <p className="mb-3 text-center">{currentCard.description}</p>
-          <button className="w-max p-4 mb-2 bg-zinc-900 rounded-2xl overflow-hidden">Me interesa</button>
+          <a href={currentCard.link}><button className="w-max p-4 mb-2 bg-zinc-900 rounded-2xl overflow-hidden">Me interesa</button></a>
         </div>
       </article>
       <IconChevronRight className="hover:text-red-600" size={50} onClick={()=>handleChangeCard("right")}/>
@@ -68,7 +72,7 @@ function ScreenServices(){
               <div className="flex flex-col items-center justify-center bg-gradient-to-r from-red-600 to-red-950 w-full min-h-60 py-5">
                 <h3 className="text-2xl mb-4 text-center">{card.title}</h3>
                 <p className="mb-3 text-center">{card.description}</p>
-                <button className="w-max p-4 mb-2 bg-zinc-900 rounded-2xl overflow-hidden">Me interesa</button>
+                <a href={card.link}><button className="w-max p-4 mb-2 bg-zinc-900 rounded-2xl overflow-hidden">Me interesa</button></a>
               </div>
             </article>
             </div>

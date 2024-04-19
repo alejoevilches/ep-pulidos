@@ -6,10 +6,10 @@ export function Products(){
         <img className="sm:w-1/2" src="/cubreautos-banner.jpeg" alt="Informacion sobre cubreautos" />
         <img className="sm:w-1/2" src="/cubreautos-img.jpeg" alt="Imagen del cubreautos" />
       </div>
-      <button className="my-4 w-max p-4 bg-red-600 rounded-2xl overflow-hidden">Comprar</button>
+      <a href="https://api.whatsapp.com/send/?phone=%2B5491132181199&text=Deseo+comprar+un+cubre+auto&type=phone_number&app_absent=0"><button className="my-4 w-max p-4 bg-red-600 rounded-2xl overflow-hidden">Comprar</button></a>
       <h4 className="text-2xl text-center px-3 py-5">También podes comprar nuestros cubreasientos</h4>
       <img className="size-72 object-contain border-4 border-red-600 w-min" src="/cubreasiento.jpeg" alt="Imagen del cubreasientos" />
-      <button className="my-4 w-max p-4 bg-red-600 rounded-2xl overflow-hidden">Comprar</button>
+      <a href="https://api.whatsapp.com/send/?phone=%2B5491132181199&text=Deseo+comprar+un+cubre+auto&type=phone_number&app_absent=0"><button className="my-4 w-max p-4 bg-red-600 rounded-2xl overflow-hidden">Comprar</button></a>
     </section>
   )
 }

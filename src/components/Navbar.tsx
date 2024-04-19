@@ -36,9 +36,9 @@ function ScreenNavbar(){
       <img className="w-24 " src="/logo.png" alt="Logo de EP Pulidos" />
       <div className="text-white">
         <ul className="flex gap-10">
-          <a href="#services"><li>Servicios</li></a>
-          <a href="#gallery"><li>Galería</li></a>
-          <a href="#products"><li>Productos</li></a>
+          <a className="hover:underline underline-offset-4" href="#services"><li>Servicios</li></a>
+          <a className="hover:underline underline-offset-4" href="#gallery"><li>Galería</li></a>
+          <a className="hover:underline underline-offset-4" href="#products"><li>Productos</li></a>
         </ul>
       </div>
     </nav>
